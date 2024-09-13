@@ -1,5 +1,6 @@
 body {
-	flex-direction: flex
+	flex-direction: flex;
+	color:Tomato 
 }
 
 main {
@@ -9,6 +10,7 @@ main {
 article {
 	flex: 2;
 	overflow-y: auto
+	border-style: dotted
 }
  
 aside {
