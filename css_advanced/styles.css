@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#main-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+#header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 40px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#hero-section {
+    background-image: url('./assests/background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#main-title {
+    font-size: 120px;
+    margin: 0;
+}
+
+#hero-subtitles {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+#hero-subtitles span {
+    margin: 0 20px;
+}
+
+#register-button {
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+#learn-title {
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+#learn-title span {
+    color: #C271FF;
+}
+
+#pros-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.pro-card {
+    text-align: center;
+}
+
+.pro-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pro-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.pro-card p {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
